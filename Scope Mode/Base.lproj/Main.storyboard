@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Scope_Mode" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="PROJECT NAME" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Rt-uU-Rfa">
+                                <rect key="frame" x="47" y="442" width="946" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="phv-gW-pw1"/>
+                                </constraints>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NEXT QUESTION ..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfl-Cj-SGh">
+                                <rect key="frame" x="740" y="721" width="237" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="B7m-Ur-1br"/>
+                                    <constraint firstAttribute="width" constant="237" id="DNU-LZ-Qda"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scope mode-3" translatesAutoresizingMaskIntoConstraints="NO" id="DdG-7W-UuH">
+                                <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gfl-Cj-SGh" secondAttribute="bottom" constant="26" id="4rW-sj-BLG"/>
+                            <constraint firstItem="DdG-7W-UuH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JZ9-ho-A4I"/>
+                            <constraint firstAttribute="trailing" secondItem="DdG-7W-UuH" secondAttribute="trailing" id="Kbd-A3-R76"/>
+                            <constraint firstItem="DdG-7W-UuH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="MXS-4h-esP"/>
+                            <constraint firstItem="7Rt-uU-Rfa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="422" id="PvT-VV-eud"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7Rt-uU-Rfa" secondAttribute="trailing" constant="11" id="R0f-U1-iXv"/>
+                            <constraint firstItem="7Rt-uU-Rfa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="27" id="UY5-KR-5eY"/>
+                            <constraint firstItem="DdG-7W-UuH" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="VPu-WZ-ftZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gfl-Cj-SGh" secondAttribute="trailing" constant="27" id="jFK-Ip-PhO"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-335" y="198"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mMi-Ah-xi4">
+            <objects>
+                <viewController id="8vv-z4-w3T" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Heg-8N-a4w"/>
+                        <viewControllerLayoutGuide type="bottom" id="NAu-KO-yuj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6dm-DI-vwZ">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="pY1-gc-de4">
+                                <rect key="frame" x="0.0" y="267" width="600" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="484233814.94802701">
+                                    <!--2016-05-06 13:23:34 +0000-->
+                                </date>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tkq-5e-ZQ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="816" y="208"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="scope mode-3" width="3870" height="2910"/>
+    </resources>
+</document>
